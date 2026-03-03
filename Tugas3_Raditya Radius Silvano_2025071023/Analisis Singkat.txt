@@ -1,0 +1,19 @@
+Program ini menggunakan struktur struct Node yang memiliki dua bagian:
+
+data untuk menyimpan nilai
+
+next untuk menunjuk ke node berikutnya
+
+Singly linked list bekerja dengan cara setiap node menunjuk ke node setelahnya.
+Penambahan data dilakukan di akhir list.
+Penghapusan data dilakukan dengan mencari nilai yang sesuai lalu menghubungkan ulang pointer.
+
+Keunggulan:
+
+Ukuran dinamis (tidak perlu menentukan ukuran di awal)
+
+Mudah menambah dan menghapus data
+
+Kekurangan:
+
+Tidak bisa akses langsung seperti array (harus traversal dari awal)
